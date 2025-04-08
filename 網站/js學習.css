@@ -1,0 +1,23 @@
+
+*{
+    background-color: black;
+    color: rgb(247, 247, 247);
+}
+
+
+@keyframes lin {
+    0%{border-radius: 0%;}
+    100%{border-radius: 100%;}
+    
+}
+{
+.box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation lin .5s infinate alternate;
+}
+
+
+}

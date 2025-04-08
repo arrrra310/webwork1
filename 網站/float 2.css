@@ -1,0 +1,57 @@
+/*優勢:不同網頁可使用同個CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    background-color: #000;
+    text-align: center;
+    /**選單置中**/
+    font-size: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    /*去除文字裝飾,如底線*/
+    display: inline-block;
+    padding: 6px 20px;
+    /**上下/左右**/
+    font-size: 16px;
+    transition: 0.5s;
+    /**動畫**/
+}
+
+/**當連結被摸到時**/
+nav a:hover {
+    background-color: rgb(255, 179, 0);
+}
+
+p.showing {
+
+    color: rgb(255, 234, 0);
+}
+
+.wrap {
+    background-color: #c88a54e2;
+    width: 960px;
+margin: auto;
+}
+
+.col {
+    background-color: #b30000;
+    height: 400px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.struct {
+
+    clear: both;
+    height: 0;
+}

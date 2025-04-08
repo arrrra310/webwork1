@@ -1,0 +1,91 @@
+/*優勢:不同網頁可使用同個CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+input, select {
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #ffffff;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #eaa400;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #eaa400ab;
+}
+
+p {
+    margin: 10px 0;
+}
+
+#tipamount, #sum {
+    font-weight: bold;
+}
+
+
+nav {
+    background-color: #000;
+    text-align: center;
+    /**選單置中**/
+    font-size: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    /*去除文字裝飾,如底線*/
+    display: inline-block;
+    padding: 6px 20px;
+    /**上下/左右**/
+    font-size: 16px;
+    transition: 0.5s;
+    /**動畫**/
+}
+
+/**當連結被摸到時**/
+nav a:hover {
+    background-color: rgb(255, 179, 0);
+}
+div{
+    margin: 50px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="小費計算機.css" class="css">
+</head>
+<body>
+    <nav>
+        <a href="css練習.html">首頁</a>
+    </nav>
+<div>
+    <h2> 小費計算機
+    </h2>
+        <h3>菜單金額
+        </h3>
+    <input type="number" id="foodcost" placeholder="Enter number">
+
+    <h3>選擇小費百分比</h3>
+    <select id="tippercent">
+        <option value="0.1">10%</option>
+        <option value="0.15">15%</option>
+        <option value="0.2">20%</option>
+        <option value="custom">自定義</option>
+    </select>
+   <input type="number" id="customtip" placeholder="自定義百分比" style="display: none;"> 
+
+    <button id="btn">計算</button>
+    <h3>結果</h3>
+    <p>小費金額: <span id="tipamount">$0.00</span></p>
+    <p>&emsp;總金額: <span id="sum">$0.00</span></p>
+    <script src="小費計算機.js"></script>
+</div>
+    </body>
+
+</html>
